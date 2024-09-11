@@ -8,13 +8,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ContentWithTargetPath Include="..\Files\populacao-municipios.csv">
+        <ContentWithTargetPath Include=".\populacao-municipios.csv">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <TargetPath>populacao-municipios.csv</TargetPath>
         </ContentWithTargetPath>
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="System.Collections.Generic.RedBlack" Version="1.3.4618" />
+        <PackageReference Include="System.Collections.Generic.RedBlack" Version="1.3.4618" />
     </ItemGroup>
 </Project>
